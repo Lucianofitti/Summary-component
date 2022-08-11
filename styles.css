@@ -1,0 +1,95 @@
+:root{
+    --Paleblue: hsl(225, 100%, 94%);
+--Brightblue: hsl(245, 75%, 52%);
+--Verypaleblue: hsl(225, 100%, 98%);
+--desaturatedblue: hsl(224, 23%, 55%);
+--Darkblue: hsl(223, 47%, 23%);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Paleblue);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+main{
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    width:95%;
+    max-width: 21rem;
+    padding-bottom: 1rem;
+    
+}
+h1{
+    font-weight: 900;
+    color: var(--Darkblue)
+}
+#paragraph{
+    color: var(--desaturatedblue);
+    margin-inline: auto;
+    line-height: 26px;
+    width: 80%;
+}
+.illustration{
+
+    margin-inline: auto;
+    margin-block: 0;
+    width: 100%;
+}
+.illustration img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+.plan{
+    width: 90%;
+    margin-inline: auto;
+    background-color:var(--Verypaleblue);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1.3rem;
+}
+.plan img{
+    margin-left: 1em;
+}
+.texts{
+    
+}
+#annual{
+    font-weight: 900;
+    margin-bottom: 0;
+    color: var(--Darkblue)
+}
+#price{
+    margin-top: .3em;
+    color: var(--desaturatedblue);
+    font-weight: 700;
+    
+}
+#change{
+    color: var(--Brightblue);
+    margin-left: auto;
+    margin-right: 1em;
+}
+#payment{
+    border-radius: 10px;
+    padding: .8rem;
+    margin-inline: auto;
+    width: 80%;
+    background-color: var(--Brightblue);
+    box-shadow: 0 1rem 3.1rem 1px rgb(188, 174, 238);
+}
+#payment a{
+    text-decoration: none;
+    color: white;
+}
+#cancel{
+    color: hsl(222, 25%, 41%);
+    font-weight: 700;
+}
